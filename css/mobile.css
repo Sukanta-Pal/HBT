@@ -1,0 +1,71 @@
+.headerandfooter h1 {
+    float: none;
+    text-align: center;
+}
+
+.headerandfooter ul, .headerandfooter ul li {
+    float: none;
+}
+
+.headerandfooter li a {
+    padding: 5px;
+    text-align: center;
+}
+
+#showcase {
+    height: 100%;
+    padding: 70px;
+    
+}
+
+#showcase p {
+    font-size: 1.5rem;
+}
+
+#historyhotel #leftcontent {
+    display: none;
+}
+
+#historyhotel #rightcontent {
+    float: none;
+    width: 100%;
+
+}
+
+#historyhotel {
+    height: 550px;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+#midportion #left, #midportion #right {
+    float: none;
+    width: 100%;
+}
+
+#midportion h1 {
+    text-align: center;
+    
+    font-size: 2rem;
+}
+
+#midportion #right {
+    height: 200px;
+}
+
+#midportion {
+    height: 100%;
+}
+
+.formbox input, textarea {
+    width: 100%;
+}
+
+
+
+
+
+

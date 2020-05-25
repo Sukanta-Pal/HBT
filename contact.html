@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)"  href="./css/mobile.css">
+    <title>Hotel BT|Welcome</title>
+</head>
+<body>
+    <header class="headerandfooter">
+        <div class="container">
+            <h1 class="logo">HBT</h1>
+            <ul class="navbar">
+                <li><a href="index.html">HOME</a></li> 
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a class="current" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="contact">
+        <h1><span class="primaryheading">Contact</span> Us</h1>
+        <p>Please fill out the form to contact us</p>
+        <form action="process.php">
+            <div class="formbox">
+                <label for="name">NAME</label><br>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="formbox">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="formbox">
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn">SUBMIT</button>
+        </form>
+    </section>
+
+    <section id="essentials">
+        <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h1 class="featurename">Location</h1>
+            <p>Rajgangpur, Odisha</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h1 class="featurename">Phone Number</h1>
+            <p>+918637259027</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h1 class="featurename">Email Address</h1>
+            <p>frontdesk@gmail.com</p>
+        </div>
+    </section>
+
+    
+
+    <footer class="headerandfooter">
+        <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+
+    </footer>
+    
+</body>
+</html>

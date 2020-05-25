@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.headerandfooter {
+    background: black;
+    overflow: auto;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkseagreen;
+    padding-top: 20px;
+    float: left;
+}
+
+
+.navbar li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: burlywood;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+
+}
+
+.navbar li a:hover, .navbar li a.current {
+    background: yellow;
+    color: black;
+}
+.navbar {
+    float: right;
+    list-style: none;
+}
+
+.navbar li {
+    float: left;
+}
+
+.container {
+    
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+}
+
+#showcase {
+    background: url('../image_resources/showcase.jpg') no-repeat center center/cover;
+    height: 600px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.primaryheading {
+    color: rgb(0, 255, 191);
+}
+
+#showcase h1 {
+    padding-top: 170px;
+    padding-bottom: 20px;
+    font-size: 70px;
+}
+
+#showcase p {
+    padding-top: 30px;
+    font-weight: bolder;
+    padding-bottom: 30 px;
+    font-size: 2rem;
+    color: paleturquoise;
+    margin-bottom: 40px;
+
+}
+
+.btn {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background: purple;
+    color: seashell;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width:100px;
+    margin: auto;
+}
+
+
+#historyhotel {
+    height: 400px;
+}
+
+#historyhotel #leftcontent {
+    background: url('../image_resources/photo-1.jpg') no-repeat;
+    min-height: 100%;
+    float: left;
+    width: 50%;
+}
+
+#historyhotel #rightcontent {
+    display: block;
+    float: left;
+    background: darkred;
+    color: darkturquoise;
+    text-align: center;
+    overflow: hidden;
+    width: 50%;
+    padding: 20px;
+    min-height: 100%;
+    line-height: 1.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background: lime;
+    color: maroon;
+}
+
+#rightcontent h1{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+
+#rightcontent p{
+    padding-bottom: 30px;
+}
+
+.box{
+    
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: 30px;
+}
+
+i {
+    margin-bottom: 20px;
+}
+
+.featurebox {
+    background: chocolate;
+}
+
+.clr {
+    clear: both;
+}
+
+footer {
+    color: honeydew;
+    text-align: center;
+    padding: 20px;
+}
+
+#midportion {
+    height: 300px;
+    padding: 30px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+#midportion #left {
+    float: left;
+    width: 50%;
+    line-height: 1.7rem;
+
+}
+
+#left h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#right {
+    display: block;
+    min-height: 100%;
+    background: url('../image_resources/photo-2.jpg') no-repeat center center/cover;
+    float: right;
+    width: 47%;
+    border-radius: 50%;
+
+}
+
+#testimonials {
+    height: 100%;
+    background: url('../image_resources/test-bg.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 30px;
+}
+
+.testimony{
+    margin: auto;
+    
+    background: orange;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: justify;
+    opacity: 0.7;
+
+}
+
+.testimony p {
+    padding: 30px;
+    line-height: 1.7rem;
+
+    
+}
+
+.testimony img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+#testimonials h1 {
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: paleturquoise;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#contact h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+}
+
+#contact p {
+    margin:20px;
+    font-weight: bolder;
+
+}
+
+.formbox {
+    margin: 0 50px;
+    margin-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+
+.formbox input{
+    width: 50%;
+    height: 30px;
+}
+
+textarea {
+    width: 50%;
+    height: 200px;
+}
+ button {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-weight: bolder;
+ }
+
+ #essentials .box {
+     
+     margin-top: 40px;
+     background: chartreuse;
+    
+     
+
+ }
